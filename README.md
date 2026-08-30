@@ -32,6 +32,28 @@ You describe what you want to build, how many minutes you actually have, and you
 
 **5. Make this achievable** — one button. Applies simplifications first, then cuts non-essential features in priority order until the plan fits. Never auto-cuts a BUILD feature.
 
+## Demo
+
+### 1. Define your sprint
+
+Describe the idea, set the clock, pick a skill level. The **Try Hackathon Demo Project** button loads a worked example if you'd rather just watch.
+
+![ScopeSprint landing page](docs/01-landing.png)
+
+### 2. Get a costed MVP
+
+The plan comes back split into BUILD / SIMPLIFY / CUT with a feasibility score and a budget read. Here the demo project lands at **105 / 120 min** — achievable, 15 minutes of buffer, score 95.
+
+![Recommended MVP dashboard](docs/02-mvp-dashboard.png)
+
+### 3. Break it on purpose
+
+Toggle the cut authentication feature back on and the plan blows out to **225 / 120 min** — 105 minutes over, feasibility drops to 10, status flips to `IMPOSSIBLE SCOPE`. Every number updates instantly, so you can price a "quick addition" before you commit to it.
+
+![Over-budget scope simulation](docs/03-over-budget.png)
+
+From here, **✨ Make this achievable** applies simplifications first, then trims non-essential features until the plan fits — taking this example back to exactly 120 minutes without touching either BUILD feature.
+
 ## Tech stack
 
 - **React 18** + **Vite 5**
